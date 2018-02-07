@@ -1,0 +1,48 @@
+/* Styles plaçant bien le header, le main et le footer */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Pas d'espace au-dessus du footer */
+
+.row {
+    margin-bottom: 0px;
+}
+
+/* colonnes de meme hauteur dans le main html */
+
+#main_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#main_col {
+    display: table-cell;
+    padding: 10px;
+}
+
+/* Titre dans la nav */
+
+.nav-perso {
+    padding-left: 10px;
+    font-weight: 1000;
+    font-size: 18px;
+
+}
+
+header a:hover {
+    color: brown;
+}
