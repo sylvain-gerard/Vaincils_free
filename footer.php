@@ -16,7 +16,7 @@
     </div>
     <div class="footer-copyright">
         <div class="container">
-            © 2017 Copyright Twenty
+            © 2018 Copyright GERARD Sylvain
             <p class="grey-text text-lighten-4 right" href="#!">Made with PHP, Materialize, Angular 5, Angular Material.</p>
         </div>
     </div>

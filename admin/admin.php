@@ -22,15 +22,22 @@ if (isset($_POST['login']) AND isset($_POST['pass']))
 else // On n'a pas encore rempli le formulaire
 {
 ?>
-    <p>Entrez votre login et votre mot de passe pour le crypter.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>Entrez votre login et votre mot de passe pour le crypter.</p>
 
-    <form method="post">
-        <p>
-            Login : <input type="text" name="login"><br /> Mot de passe : <input type="text" name="pass"><br /><br />
+                <form method="post">
+                    <p>
+                        Login : <input type="text" name="login"><br /> Mot de passe : <input type="text" name="pass"><br /><br />
 
-            <input type="submit" value="Crypter !">
-        </p>
-    </form>
+                        <input type="submit" value="Crypter !">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
 
     <?php
 }
