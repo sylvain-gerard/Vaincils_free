@@ -23,13 +23,13 @@
                     <li><a href="dist/index.html">Angular</a></li>
                     <li><a href="typescript.html">TypeScript</a></li>
                     <li><a href="java.html">Java</a></li>
-                    <li><a href="/admin/admin.php">Admin</a></li>
+                    <li><a href="/admin/index.php">Admin</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li><a href="dist/index.html">Angular</a></li>
                     <li><a href="typescript.html">TypeScript</a></li>
                     <li><a href="java.html">Java</a></li>
-                    <li><a href="/admin/admin.php">Admin</a></li>
+                    <li><a href="/admin/index.php">Admin</a></li>
                 </ul>
             </div>
         </nav>

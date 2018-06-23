@@ -1,24 +1,7 @@
 <footer class="page-footer teal">
     <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                    <li><a target="_blank" class="grey-text text-lighten-3" href="https://simplon.co/">Simplon.co</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            © 2017 Copyright Twenty
-            <p class="grey-text text-lighten-4 right" href="#!">Made with PHP, Materialize, Angular 5, Angular Material.</p>
-        </div>
+        © 2017 Copyright Twenty
+        <p class="grey-text text-lighten-4 right" href="#!">Made with PHP, Materialize, Angular 5, Angular Material.</p>
     </div>
 </footer>
 <!-- BOUTON FLOTTANT -->
