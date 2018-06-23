@@ -1,2 +1,2 @@
-## Website host on free.fr
+## Website hosted on free.fr
 ### Framework Materialize + PHP
