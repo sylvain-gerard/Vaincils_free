@@ -1,8 +1,10 @@
 <?php
 
 // affiche le numéro de version courante du PHP.
+echo'<br>';
 echo 'Version PHP courante : ' . phpversion();
 
+// tentative de connexion à la base
 $link = mysql_connect('sql.free.fr', 'vaincils', 'twenty66');
 mysql_query("SET NAMES 'utf8'");
 if (!$link) {
@@ -11,6 +13,29 @@ if (!$link) {
     echo ' -- Connexion réussie avec la base de données ! <br><br>';
 }
 
+// lister les tables
+$dbname = 'vaincils';
+$sql = "SHOW TABLES FROM $dbname";
+$result = mysql_query($sql);
+
+if (!$result) {
+    echo "Erreur DB, impossible de lister les tables\n";
+    echo 'Erreur MySQL : ' . mysql_error();
+    exit;
+} else {
+    echo "Liste des tables de la base <b>" . $dbname . "</b> :";
+    echo "<br>";
+}
+
+while ($row = mysql_fetch_row($result)) {
+    echo "Table : <b>{$row[0]}\n</b>";
+    echo '<br>';
+}
+
+mysql_free_result($result);
+
+
+// formulaire encryptage
 if (isset($_POST['login']) AND isset($_POST['pass']))
 {
 	$login = htmlspecialchars($_POST['login']);
